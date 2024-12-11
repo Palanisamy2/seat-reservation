@@ -1,0 +1,63 @@
+body {
+  background-color:hsl(32, 63%, 91%);
+}
+
+h1 {
+  align-items: center;
+  text-align: center;
+}
+
+.seats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.available {
+  background-color: #4caf50;
+  color: white;
+}
+
+.booked {
+  background-color: #f44336;
+  color: white;
+  transition: all ease-in-out 0.5s;
+}
+
+.controls {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 2%;
+}
+
+input {
+  width: 10%;
+  border: #252424 solid 1px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+input:hover {
+  border-color: thistle;
+  transition: all ease-in-out 1s;
+}
+
+.booking-info, .error {
+  text-align: center;
+}
